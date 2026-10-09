@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://p-4f27090ad2.huishanjob.cn/sitemap.xml

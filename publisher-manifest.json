@@ -1,0 +1,99 @@
+{
+  "version": 2,
+  "template_version": "7ffa5ebee0a6d05c86c7",
+  "page_size": 20,
+  "site_id": "437ccebba09e5a142f16a3e1",
+  "owner": "uhqyqq1",
+  "repo": "page-7dde0a44541f80d58ecbb2bb",
+  "title": "机场推荐",
+  "mode": "repo",
+  "articles": [
+    {
+      "id": "7dde0a44541f80d58ecbb2bb",
+      "a": "机场推荐",
+      "b": "",
+      "entity": "机场推荐",
+      "brand": "机场推荐",
+      "separator": "",
+      "path": "index.html",
+      "hash": "a230258d3b43a3ada24f4401449d2b44d2352e7a58e55d60a92ccbf5c0ac09c6",
+      "content": {
+        "keyword1": "机场推荐",
+        "keyword2": "",
+        "primary_entity": "机场推荐",
+        "plans": [
+          {
+            "name": "基础版",
+            "price": "¥15/月",
+            "annual_price": "按年付仅需 ¥150/年",
+            "features": [
+              "每月 100GB 极速流量",
+              "支持 3 台设备同时在线",
+              "解锁基础流媒体",
+              "普通线路节点池"
+            ]
+          },
+          {
+            "name": "旗舰版",
+            "price": "¥35/月",
+            "annual_price": "按年付仅需 ¥350/年",
+            "featured": true,
+            "features": [
+              "每月 300GB 极速流量",
+              "支持 5 台设备同时在线",
+              "全节点原生流媒体解锁",
+              "IPLC 专线游戏加速优化",
+              "7x24 优先工单支持"
+            ]
+          },
+          {
+            "name": "团队版",
+            "price": "¥85/月",
+            "annual_price": "按年付仅需 ¥850/年",
+            "features": [
+              "每月 1000GB 极速流量",
+              "支持 20 台设备同时在线",
+              "VIP 专属高带宽节点",
+              "支持企业定制路由",
+              "专属客户经理服务"
+            ]
+          }
+        ],
+        "clients": [],
+        "_offline": false,
+        "content": {
+          "AI_HERO_INTRO": "机场推荐为您提供专业VPN加速服务，多种客户端下载和机场订阅方案。基础版、旗舰版、团队版可选，保障您的网络安全与高速体验。",
+          "AI_DESCRIPTION": "机场推荐为您提供专业VPN加速服务，多种客户端下载和机场订阅方案。基础版、旗舰版、团队版可选，保障您的网络安全与高速体验。"
+        },
+        "_brand_page": {
+          "version": 1,
+          "body": "\n\n\n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    \n    <style>\n        body {\n            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;\n            margin: 0;\n            padding: 0;\n            background: linear-gradient(to bottom, #0a1f3d, #1e3a8a);\n            color: #f0f4f8;\n            line-height: 1.7;\n            max-width: 1200px;\n            margin: 0 auto;\n        }\n        h1 {\n            color: #00d4ff;\n            font-size: 2.8rem;\n            text-align: center;\n            margin: 2rem 0 1rem;\n        }\n        h2 {\n            color: #00d4ff;\n            font-size: 1.8rem;\n            margin: 2rem 0 1rem;\n        }\n        h3 {\n            color: #00d4ff;\n            font-size: 1.4rem;\n            margin: 1.5rem 0 0.8rem;\n        }\n        section {\n            margin-bottom: 3rem;\n        }\n        .hero {\n            display: grid;\n            grid-template-columns: 1fr 1fr;\n            gap: 2rem;\n            align-items: center;\n            background: rgba(255,255,255,0.05);\n            padding: 2rem;\n            border-radius: 12px;\n        }\n        .intro-grid {\n            display: grid;\n            grid-template-columns: 1fr 1fr;\n            gap: 2rem;\n            align-items: center;\n            background: rgba(255,255,255,0.05);\n            padding: 2rem;\n            border-radius: 12px;\n        }\n        .client-grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n            gap: 1.5rem;\n        }\n        .card {\n            background: linear-gradient(135deg, #1e3a8a, #0a2540);\n            padding: 1.5rem;\n            border-radius: 8px;\n            transition: transform 0.3s ease;\n        }\n        .card:hover {\n            transform: translateY(-4px);\n        }\n        .featured {\n            background: linear-gradient(135deg, #00d4ff, #00bfff);\n            color: #0a1f3d;\n            position: relative;\n        }\n        .featured::before {\n            content: \"推荐\";\n            position: absolute;\n            top: 12px;\n            right: 12px;\n            background: #ffd700;\n            color: #0a1f3d;\n            font-size: 0.75rem;\n            padding: 2px 8px;\n            border-radius: 4px;\n        }\n        .plan-grid {\n            display: flex;\n            gap: 1.5rem;\n            overflow-x: auto;\n            padding-bottom: 1rem;\n            scroll-snap-type: x mandatory;\n        }\n        .plan-card {\n            min-width: 300px;\n            background: #1e3a8a;\n            padding: 1.5rem;\n            border-radius: 8px;\n        }\n        .plan-card.featured {\n            background: linear-gradient(135deg, #00d4ff, #00bfff);\n            color: #0a1f3d;\n        }\n        details {\n            margin-bottom: 1rem;\n            background: rgba(255,255,255,0.05);\n            padding: 1rem;\n            border-radius: 8px;\n        }\n        summary {\n            cursor: pointer;\n            font-weight: bold;\n            color: #00d4ff;\n            padding: 0.5rem 0;\n        }\n        ul {\n            padding-left: 1.2rem;\n            margin: 0.8rem 0;\n        }\n        li {\n            margin: 0.4rem 0;\n        }\n        ol {\n            padding-left: 1.2rem;\n        }\n        a {\n            color: #00d4ff;\n            text-decoration: none;\n            font-weight: 500;\n        }\n        a:hover {\n            text-decoration: underline;\n        }\n        .cta {\n            text-align: center;\n            padding: 2.5rem 1.5rem;\n            background: linear-gradient(45deg, #00d4ff, #00bfff);\n            color: #0a1f3d;\n            border-radius: 12px;\n            margin: 3rem 0;\n        }\n        footer {\n            margin-top: 4rem;\n            padding: 2rem;\n            background: #0a1f3d;\n            text-align: center;\n            font-size: 0.9rem;\n            border-top: 1px solid rgba(255,255,255,0.1);\n        }\n        @media (max-width: 768px) {\n            body { padding: 1rem; }\n            h1 { font-size: 2rem; }\n            .hero, .intro-grid { grid-template-columns: 1fr; }\n        }\n    </style>\n\n\n    <main>\n        <h1>机场推荐</h1>\n        \n        \n        <section class=\"hero\">\n            <div>\n                <h2>机场推荐VPN加速器</h2>\n                <p>提供安全稳定的全球节点加速服务，专为个人与团队设计。多种规格客户端下载方案，让您轻松解锁网络内容，享受高速稳定体验。</p>\n            </div>\n            <div>\n                <a href=\"#\">立即选择客户端下载</a>\n            </div>\n        </section>\n        \n        \n        <section>\n            <h2>品牌简介</h2>\n            <p>机场推荐是一款专业VPN网络加速平台，专注全球节点高速稳定服务。从基础流量套餐到企业级定制方案，我们始终以用户需求为先，提供安全可靠的网络加速体验。</p>\n        </section>\n        \n        \n        <section class=\"intro-grid\">\n            <div>\n                <h2>使用场景</h2>\n                <ul>\n                    <li>游戏加速：IPLC专线优化延迟，畅玩在线竞技</li>\n                    <li>流媒体解锁：原生支持Netflix、Disney+等多平台解锁</li>\n                    <li>隐私保护：加密传输，守护您的在线活动</li>\n                    <li>远程办公：稳定高速连接，随时随地工作</li>\n                </ul>\n            </div>\n            <div>\n                <h3>官方保障</h3>\n                <p>所有客户端均来自官网，订阅后可立即使用，享受7x24在线支持。</p>\n            </div>\n        </section>\n        \n        \n        <section>\n            <h2>客户端选择</h2>\n            <p>根据流量需求与使用场景，精选专属客户端下载方案。基础版适合轻度用户，旗舰版提供最佳流媒体体验，团队版专为企业设计。</p>\n            <div class=\"client-grid\">\n                \n                <div class=\"card\">\n                    <h3>基础版</h3>\n                    <p>¥15/月 | 按年付仅需 ¥150/年</p>\n                    <p>每月100GB极速流量</p>\n                    <ul>\n                        <li>支持3台设备</li>\n                        <li>普通线路节点池</li>\n                        <li>解锁基础流媒体</li>\n                    </ul>\n                    <a href=\"#\">下载基础版客户端</a>\n                </div>\n                \n                <div class=\"card featured\">\n                    <h3>旗舰版</h3>\n                    <p>¥35/月 | 按年付仅需 ¥350/年</p>\n                    <p>每月300GB极速流量</p>\n                    <ul>\n                        <li>支持5台设备</li>\n                        <li>全节点原生流媒体解锁</li>\n                        <li>IPLC专线游戏加速</li>\n                        <li>7x24优先工单支持</li>\n                    </ul>\n                    <a href=\"#\">下载旗舰版客户端</a>\n                </div>\n                \n                <div class=\"card\">\n                    <h3>团队版</h3>\n                    <p>¥85/月 | 按年付仅需 ¥850/年</p>\n                    <p>每月1000GB极速流量</p>\n                    <ul>\n                        <li>支持20台设备</li>\n                        <li>VIP专属高带宽节点</li>\n                        <li>企业定制路由</li>\n                        <li>专属客户经理服务</li>\n                    </ul>\n                    <a href=\"#\">下载团队版客户端</a>\n                </div>\n            </div>\n        </section>\n        \n        \n        <section>\n            <h2>操作说明</h2>\n            <ol>\n                <li>访问官网，下载对应版本客户端</li>\n                <li>完成注册后选择订阅方案</li>\n                <li>复制订阅链接或直接在客户端连接节点</li>\n                <li>选择优质节点即可享受加速服务</li>\n            </ol>\n        </section>\n        \n        \n        <section>\n            <h2>资费方案</h2>\n            <div class=\"plan-grid\">\n                <div class=\"plan-card\">\n                    <h3>基础版</h3>\n                    <p>¥15/月 | 按年付仅需 ¥150/年</p>\n                    <p>每月 100GB 极速流量</p>\n                    <p>支持 3 台设备同时在线</p>\n                    <p>解锁基础流媒体</p>\n                    <p>普通线路节点池</p>\n                </div>\n                <div class=\"plan-card featured\">\n                    <h3>旗舰版</h3>\n                    <p>¥35/月 | 按年付仅需 ¥350/年</p>\n                    <p>每月 300GB 极速流量</p>\n                    <p>支持 5 台设备同时在线</p>\n                    <p>全节点原生流媒体解锁</p>\n                    <p>IPLC 专线游戏加速优化</p>\n                    <p>7x24 优先工单支持</p>\n                </div>\n                <div class=\"plan-card\">\n                    <h3>团队版</h3>\n                    <p>¥85/月 | 按年付仅需 ¥850/年</p>\n                    <p>每月 1000GB 极速流量</p>\n                    <p>支持 20 台设备同时在线</p>\n                    <p>VIP 专属高带宽节点</p>\n                    <p>支持企业定制路由</p>\n                    <p>专属客户经理服务</p>\n                </div>\n            </div>\n        </section>\n        \n        \n        <section>\n            <h2>常见问题 FAQ</h2>\n            <details>\n                <summary>如何选择适合的客户端？</summary>\n                <p>基础版适合轻度使用与普通节点需求，旗舰版推荐需要流媒体解锁的用户，团队版专为企业多设备用户设计。所有客户端均来自官网官方渠道。</p>\n            </details>\n            <details>\n                <summary>不同套餐的流量和速度有什么区别？</summary>\n                <p>基础版100GB，旗舰版300GB，团队版1000GB。所有套餐均采用高速节点池，实际速度取决于节点质量与网络环境。</p>\n            </details>\n            <details>\n                <summary>支持哪些设备和平台？</summary>\n                <p>支持Windows、macOS、Android、iOS等多平台客户端。所有客户端均已适配主流设备，确保无缝连接。</p>\n            </details>\n            <details>\n                <summary>如何解锁流媒体平台？</summary>\n                <p>旗舰版与团队版提供全节点原生解锁，支持Netflix、YouTube、Disney+等主流平台。基础版可解锁部分内容。</p>\n            </details>\n            <details>\n                <summary>售后支持如何？</summary>\n                <p>旗舰版与团队版提供7x24优先工单支持，团队版额外赠送专属客户经理服务。基础版提供标准技术支持。</p>\n            </details>\n        </section>\n        \n        \n        <section class=\"cta\">\n            <h2>立即开始加速</h2>\n            <p>选择最适合您的套餐，下载官方客户端</p>\n            <a href=\"#\">访问官网下载客户端</a>\n        </section>\n    <section><h2>套餐</h2>{{PLANS_HTML}}</section><section><h2>客户端</h2>{{CLIENTS_HTML}}</section></main>\n    <footer>\n        <p>© 2024 机场推荐 版权所有</p>\n        <p>友情链接：<a href=\"#\">机场订阅指南</a> | <a href=\"#\">VPN加速教程</a> | <a href=\"#\">节点选择技巧</a></p>\n        <p>官方下载：<a href=\"#\">客户端下载</a></p>\n    </footer>\n\n",
+          "hash": "5c0031f7a90cd50302162c4c10cd1451f4afc759a476be76625780e797742c2c",
+          "seo": {
+            "title": "机场推荐VPN加速器 - 客户端下载与机场订阅",
+            "keywords": "机场推荐,VPN加速器,机场订阅,客户端下载,VPN节点,流媒体解锁",
+            "description": "机场推荐为您提供专业VPN加速服务，多种客户端下载和机场订阅方案。基础版、旗舰版、团队版可选，保障您的网络安全与高速体验。"
+          },
+          "provider": "grok"
+        }
+      }
+    }
+  ],
+  "domain": {
+    "apex": "huishanjob.cn",
+    "host": "p-4f27090ad2.huishanjob.cn",
+    "kind": "subdomain",
+    "candidate_roots_ref": "subdomain_roots:91e741dce7c147d9ce91af6f84daa678dae755807d903b04925261e0a3a8d804",
+    "prefix_mode": "auto"
+  },
+  "friendlinks": [],
+  "file_hashes": {
+    "index.html": "d64ec6139696b0cd2f4c4a9bb2470379f25447d30e6935c332172c1f4e328b47",
+    "sitemap.xml": "d279b72ce90d5152341c08b9563afc240cf4aedfee90f61478d0215538b7412e",
+    ".nojekyll": "12ae32cb1ec02d01eda3581b127c1fee3b0dc53572ed6baf239721a03d82e126",
+    "CNAME": "da5778e86da96ffd912817a0e830f4f4fae05c53caabe4e056311688393380ad",
+    "robots.txt": "7e3b58eefc328faa7655f33d66d6d8f02f32f134531c13f9d3e4548f17f91f5a",
+    "b62f82405ebf90299ab5e07e70209d0a.txt": "1ee5d923ab3f730b96b66b8bb258844c65187b2e1e463e82a21f2444c5ea30aa"
+  },
+  "revision": "6c2e7eb6a1a74b0358c69183455ef5153f23e94bce8960dd9eaf594b22aa6eea"
+}
